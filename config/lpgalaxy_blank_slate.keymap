@@ -85,7 +85,7 @@
 #elif defined(TBLE_MIT)
  &mo SYM_L  &kp LCTRL   &kp LALT  &kp LGUI    &mo NAV_L          &kp SPACE                   &mo NUM_L      &kp LEFT    &kp DOWN   &kp UP        &kp RIGHT
 #else
- &kp LCTRL  &mo SYM_L   &kp LGUI  &kp LALT    &mo NAV_L      &kp SPACE      &kp RET          &mo NUM_L      &kp LEFT    &kp UP     &kp DOWN      &kp RIGHT
+ &mo SYM_L  &kp LCTRL   &kp LALT  &kp LGUI    &mo NAV_L      &kp SPACE      &kp RET          &mo NUM_L      &kp LEFT    &kp DOWN     &kp UP      &kp RIGHT
 #endif
             >;
         };
@@ -101,7 +101,7 @@
 #elif defined(TBLE_MIT)
 &trans  &trans        &trans     &trans      &trans                &trans             &trans      &kp K_NEXT   &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
 #else
-&trans  &trans        &trans     &trans      &trans          &trans       &trans    &trans  &trans         &trans &trans &trans
+&trans  &trans        &trans     &trans      &trans          &trans       &trans    &trans  &kp K_NEXT   &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
 #endif
             >;
         };
@@ -117,7 +117,7 @@
 #elif defined(TBLE_MIT)
 &trans  &trans       &trans     &trans      &trans           &none            &trans        &kp K_NEXT      &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
 #else
-&trans  &trans       &trans     &trans      &trans    &trans         &trans     &trans        &trans     &trans &trans &trans
+&trans  &trans       &trans     &trans      &trans    &trans         &trans     &trans        &kp K_NEXT   &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
 #endif
             >;
         };
